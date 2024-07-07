@@ -6,6 +6,7 @@ import { Covenas3 } from './components/Covenas3';
 import { Covenas4 } from './components/Covenas4';
 import { Covenas5 } from './components/Covenas5';
 import { Covenas6 } from './components/Covenas6';
+import { Navigation } from './components/Navigation';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path='/covenas5' element={<Covenas5 />} />
           <Route path='/covenas6' element={<Covenas6 />} />
         </Routes>
+        <Navigation />
       </BrowserRouter>
     </>
   )
