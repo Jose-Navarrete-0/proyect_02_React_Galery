@@ -12,37 +12,37 @@ export const Navigation = () => {
         <Link to="/covenas1"className="links">
         <figure className="image-size">
                 <Covenas1 />
-                <figcaption>Outfit 1</figcaption>
+                <figcaption>Music 1</figcaption>
             </figure>
         </Link>
         <Link to="/covenas2"className="links">
         <figure className="image-size">
                 <Covenas2 />
-                <figcaption>Outfit 2</figcaption>
+                <figcaption>Music 2</figcaption>
             </figure>
         </Link>
         <Link to="/covenas3"className="links">
         <figure className="image-size">
                 <Covenas3 />
-                <figcaption>Outfit 3</figcaption>
+                <figcaption>Music 3</figcaption>
             </figure>
         </Link>
         <Link to="/covenas4"className="links" >
         <figure className="image-size">
                 <Covenas4 />
-                <figcaption>Outfit 4</figcaption>
+                <figcaption>Music 4</figcaption>
             </figure>
         </Link>
         <Link to="/covenas5"className="links">
         <figure className="image-size">
                 <Covenas5 />
-                <figcaption>Outfit 5</figcaption>
+                <figcaption>Music 5</figcaption>
             </figure>
         </Link>
         <Link to="/covenas6"className="links">
         <figure className="image-size">
                 <Covenas6 />
-                <figcaption>Outfit 6</figcaption>
+                <figcaption>Music 6</figcaption>
             </figure>
         </Link>
        

@@ -1,4 +1,4 @@
-import image1 from '../assets/img/image1.jpg'
+import image1 from '../assets/img/image1.1.jpg'
 import PropTypes from 'prop-types';
 
 export const Covenas1 = ( {className} ) => {
