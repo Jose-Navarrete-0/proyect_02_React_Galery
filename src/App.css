@@ -1,17 +1,63 @@
-.image-size 
-{
-  width: 100px;
-  height: 100px;
+
+.image-size {
+  width: 150px;
+  height: 200px;
   border-radius: 5px;
 }
 
-.father
-{
+.father {
+  height: 200px; /* Ajusta la altura del contenedor para acomodar el texto */
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 
-.links
-{
-  margin: 5px;
+.links {
+  margin: 0; /* Elimina cualquier margen */
+  padding: 0; /* Elimina cualquier padding */
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  box-shadow: 0 2px 2px rgba(0,0, 0,1);
+  transition: all 0.25s;
+}
+
+.links:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0,0, 0,1);
+}
+
+.image-container {
+  width: 100%;
+  height: 950px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 2px rgba(0,0, 0,0.8);
+}
+
+figcaption {
+  margin: 0; /* Elimina cualquier margen */
+  padding: 5px; /* Elimina cualquier padding */
+}
+
+figure {
+  justify-content: center;
+  height: 100%; /* Asegura que el contenedor ocupe todo el espacio disponible */
+  display: flex;
+  flex-direction: column;
+  background: #373B44;
+  background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+  background: linear-gradient(to right, #4286f4, #373B44);
+}
+
+h1#title {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }

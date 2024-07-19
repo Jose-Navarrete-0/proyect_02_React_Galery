@@ -1,9 +1,14 @@
 import image3 from '../assets/img/image3.jpg'
+import PropTypes from 'prop-types';
 
-export const Covenas3 = () => {
+export const Covenas3 = ( {className} ) => {
   return (
-    <div>
-      <img src={image3} alt="outfit aesthetic" />
+    <div className={`image-container ${className}`}>
+      <img src={image3} alt="outfit aesthetic" className='image'  />
     </div>
   )
 }
+
+Covenas3.protoTypes = {
+  className: PropTypes.string
+};
